@@ -1,0 +1,17 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.3">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>e3397885-5fc8-49a9-940a-be99634d4f55</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortfolioProject.Server\PortfolioProject.Server.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.1.3" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.1.3" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.1.3" />
+  </ItemGroup>
+</Project>

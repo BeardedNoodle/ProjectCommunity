@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/frontend/">
+    <Project Path="frontend/frontend.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/PortfolioProject.Domain/PortfolioProject.Domain.csproj" />
+    <Project Path="src/PortfolioProject.Application/PortfolioProject.Application.csproj" />
+    <Project Path="src/PortfolioProject.Infrastructure/PortfolioProject.Infrastructure.csproj" />
+    <Project Path="src/PortfolioProject.Server/PortfolioProject.Server.csproj" />
+    <Project Path="src/PortfolioProject.ServiceDefaults/PortfolioProject.ServiceDefaults.csproj" />
+    <Project Path="src/PortfolioProject.AppHost/PortfolioProject.AppHost.csproj" />
+  </Folder>
+</Solution>
